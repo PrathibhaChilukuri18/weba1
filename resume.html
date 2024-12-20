@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            background: linear-gradient(to bottom, #4d4d4d, #000000); /* Dark gray to black gradient */
+        }
+        .header {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .header a {
+            text-decoration: none;
+            background: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .header a:hover {
+            background: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+            color: #000;
+        }
+        h1 {
+            font-size: 2.5em;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 20px;
+        }
+        h3 {
+            font-size: 1.4em;
+            margin: 10px 0;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .contact-info {
+            font-size: 1.1em;
+            margin: 20px 0;
+        }
+        .education, .skills, .projects {
+            margin: 20px 0;
+        }
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            background-color: #333;
+            color: #fff;
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="home.html">Home</a>
+    </div>
+    <div class="container">
+        <h1>Prathibha Chilukuri</h1>
+        <div class="contact-info">
+            <p>Phone: 7022628573</p>
+            <p>Email: chilukuri.prathibha@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/Prathibha_chilukuri" target="_blank">Prathibha_chilukuri</a></p>
+        </div>
+        
+        <div class="education">
+            <h2>Education</h2>
+            <h3>Bachelor of Engineering in Computer Science</h3>
+            <p>JNNCE, Shivamogga, Karnataka</p>
+            <p>Expected Graduation: 2026</p>
+            <h3>Pre-University Education</h3>
+            <p>PACE UM PU College, Shivamogga, Karnataka</p>
+            <p>Graduated: 2022</p>
+        </div>
+        
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, Java, C++</li>
+                <li>Web Development: HTML, CSS</li>
+                <li>Database Management: SQL</li>
+                <li>Version Control: Git</li>
+                <li>Operating Systems: Windows, Linux</li>
+            </ul>
+        </div>
+        
+        <div class="projects">
+            <h2>Projects</h2>
+            <h3>Finding Missing People Using Face Recognition Algorithm</h3>
+            <p>The project uses face recognition algorithms, primarily Haar Cascade and Landmark models, to detect and identify faces of missing persons. It creates unique face encodings and compares them against a database of missing individuals. The system enables real-time monitoring.</p>
+        </div>
+    </div>
+</body>
+</html>
